@@ -1,7 +1,6 @@
 package com.arraysexample;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class ArrayListSortingEx {
 
@@ -52,18 +51,14 @@ public class ArrayListSortingEx {
                     '}';
         }
         public String getAge() {
-            this.name=name;
-            this.age=age;
             if(age>8) {
-                System.out.println(name);
+                System.out.println("The Students those who are above age 8 :"+name);
             }
             return name;
         }
         public String getClassNo() {
-            this.name=name;
-            this.classNo=classNo;
             if(classNo==6){
-                System.out.println(name);
+                System.out.println("The Students those who are in class 6 :"+name);
             }
             return name;
         }

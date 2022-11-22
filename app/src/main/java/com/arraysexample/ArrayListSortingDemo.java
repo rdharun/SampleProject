@@ -2,6 +2,7 @@ package com.arraysexample;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -22,5 +23,11 @@ public class ArrayListSortingDemo {
        // List<String> sorted = alphabets.stream().sorted().collect(Collectors.toList()); //using stream to sort
        List<String> sortedAlphabets = alphabets.stream().sorted(Collections.reverseOrder()).collect(Collectors.toList());
         System.out.println(sortedAlphabets);
+
+
+      Iterator<String> itr =  alphabets.iterator();
+      itr.forEachRemaining(alphabet-> System.out.print(alphabet));
+        alphabets.stream().forEach(System.out::println);
+
     }
 }
