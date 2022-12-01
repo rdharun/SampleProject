@@ -1,5 +1,7 @@
 package com.methods;
 
+import org.testng.annotations.Test;
+
 public class CheeseRakakat {
 
     public CheeseRakakat(){
@@ -12,6 +14,7 @@ public class CheeseRakakat {
         return this;
     }
 
+
     public CheeseRakakat fillSheet(){
         System.out.println("Spread an adequate amount of filling on the sheet, roll it over to from a log and seal the edges using some water");
         System.out.println("repeat the same procedure");
@@ -23,10 +26,12 @@ public class CheeseRakakat {
     return this;
     }
 
+    @Test
     public Rakakat serve(){
         System.out.println("Serve the cheese rolls with ketchup");
         return new Rakakat();
     }
+
 
     private static class  Rakakat{}
 

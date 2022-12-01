@@ -1,7 +1,6 @@
 package com.ultralesson;
 
 public class Boy {
-
     private int age=0;
 
     public int getAge() {
@@ -10,9 +9,8 @@ public class Boy {
 
     public void setAge(int age) {
         this.age = age;
+
     }
-
-
     public static void main(String[] args) {
         Boy boy = new Boy();
         boy.setAge(4);

@@ -19,7 +19,7 @@ public class Demo {
             Arrays.sort(ar1);
             Arrays.sort(ar2);
 
-          Boolean result =  Arrays.equals(ar1, ar2);
+          boolean result =  Arrays.equals(ar1, ar2);
 
           if(result){
               System.out.println("it is anagram");

@@ -43,7 +43,9 @@ public class PumpkinSoup {
         System.out.println();
         return new Pumpkin();
     }
+
     private static class Pumpkin{}
+
     public static void main(String[] args) {
         PumpkinSoup soup = new PumpkinSoup();
         soup.heatOil()

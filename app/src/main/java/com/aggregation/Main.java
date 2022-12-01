@@ -9,6 +9,5 @@ public class Main {
         Ipad ipad = new Ipad(charger);
         ipad.charge();
 
-
     }
 }

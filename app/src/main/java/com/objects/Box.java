@@ -6,6 +6,7 @@ public class Box {
     private String color;
     private int count;
 
+
     public Box (String type, String color, int count){
         this.type=type;
         this.color=color;
