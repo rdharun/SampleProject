@@ -1,6 +1,5 @@
 package com.methods;
 
-import org.testng.annotations.Test;
 
 public class CheeseRakakat {
 
@@ -26,7 +25,6 @@ public class CheeseRakakat {
     return this;
     }
 
-    @Test
     public Rakakat serve(){
         System.out.println("Serve the cheese rolls with ketchup");
         return new Rakakat();
@@ -37,7 +35,8 @@ public class CheeseRakakat {
 
     public static void main(String[] args) {
         CheeseRakakat rakakat = new CheeseRakakat();
-        rakakat.addIngredients("mozzarella","coriander","oregano")
+        rakakat.
+                addIngredients("mozzarella","coriander","oregano")
                 .fillSheet()
                 .heatOil()
                 .serve();

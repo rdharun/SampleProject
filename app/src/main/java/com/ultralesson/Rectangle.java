@@ -29,5 +29,4 @@ public class Rectangle {
         System.out.println(rectangle.getLength());
         System.out.println(rectangle.getWidth());
     }
-
 }

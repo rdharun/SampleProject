@@ -30,7 +30,6 @@ public class PumpkinSoup {
     }
     public PumpkinSoup coolSlightly(){
         System.out.println("Allow to cool slightly and blend in batches");
-        System.out.println();
         return this;
     }
     public PumpkinSoup soupToPan(){
@@ -40,7 +39,6 @@ public class PumpkinSoup {
     }
     public Pumpkin serve(){
         System.out.println("Serve the pumpkin");
-        System.out.println();
         return new Pumpkin();
     }
 
