@@ -9,14 +9,12 @@ public class Boy {
     }
 
     public void setAge(int age) {
-        if(age<0){
-            this.age=0;
-            System.out.println("error");
+       if (age<getAge()) {
+            System.out.println("The age cannot be decremented");
         } else {
             this.age=age;
         }
     }
-
 
     public static void main(String[] args) {
         Boy boy = new Boy();

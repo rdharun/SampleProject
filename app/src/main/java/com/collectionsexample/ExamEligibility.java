@@ -1,4 +1,4 @@
-package com.arraysexample;
+package com.collectionsexample;
 
 import java.util.Comparator;
 import java.util.TreeSet;
@@ -23,9 +23,11 @@ public class ExamEligibility {
         set.add(new Students("Jack",70));
         set.add(new Students("Andy",60));
 
+
+
     }
 
-   private static class Students{
+   private static class Students {
 
         private String names;
         private int marks;
