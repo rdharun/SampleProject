@@ -12,8 +12,9 @@ public class SetOperations {
         numbers.add(4);
         numbers.add(5);
         numbers.add(6);
-
+        numbers.add(7);
         numbers.forEach(System.out::println);
+
     }
 }
 
